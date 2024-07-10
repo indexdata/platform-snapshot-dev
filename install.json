@@ -311,6 +311,9 @@
   "id" : "folio_plugin-find-import-profile-7.1.100000232",
   "action" : "enable"
 }, {
+  "id" : "okapi-5.1.2",
+  "action" : "enable"
+},{
   "id" : "mod-event-config-2.7.2-SNAPSHOT.67",
   "action" : "enable"
 }, {
@@ -413,12 +416,6 @@
   "id" : "folio_plugin-eusage-reports-3.1.100000310",
   "action" : "enable"
 }, {
-  "id" : "mod-fqm-manager-2.1.0-SNAPSHOT.247",
-  "action" : "enable"
-}, {
-  "id" : "edge-fqm-2.1.0-SNAPSHOT.28",
-  "action" : "enable"
-}, {
   "id" : "mod-bulk-operations-2.1.0-SNAPSHOT.224",
   "action" : "enable"
 }, {
@@ -432,12 +429,6 @@
   "action" : "enable"
 }, {
   "id" : "edge-orders-3.1.0-SNAPSHOT.75",
-  "action" : "enable"
-}, {
-  "id" : "mod-lists-2.1.0-SNAPSHOT.91",
-  "action" : "enable"
-}, {
-  "id" : "folio_lists-3.0.100000102",
   "action" : "enable"
 }, {
   "id" : "mod-invoice-5.9.0-SNAPSHOT.440",
