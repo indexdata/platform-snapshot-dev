@@ -16,7 +16,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-record-specifications-1.0.0-SNAPSHOT.24",
+    "id": "mod-record-specifications-1.0.0-SNAPSHOT.25",
     "action": "enable"
   },
   {
@@ -64,7 +64,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-source-record-storage-5.9.0-SNAPSHOT.619",
+    "id": "mod-source-record-storage-5.9.0-SNAPSHOT.620",
     "action": "enable"
   },
   {
@@ -112,7 +112,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-serials-management-1.1.0-SNAPSHOT.99",
+    "id": "mod-serials-management-1.1.0-SNAPSHOT.100",
     "action": "enable"
   },
   {
@@ -188,7 +188,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-20.3.0-SNAPSHOT.757",
+    "id": "mod-inventory-20.3.0-SNAPSHOT.758",
     "action": "enable"
   },
   {
@@ -212,7 +212,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-import-3.2.0-SNAPSHOT.296",
+    "id": "mod-data-import-3.2.0-SNAPSHOT.297",
     "action": "enable"
   },
   {
@@ -248,7 +248,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-patron-6.2.0-SNAPSHOT.129",
+    "id": "mod-patron-6.2.0-SNAPSHOT.130",
     "action": "enable"
   },
   {
@@ -256,7 +256,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-orders-12.9.0-SNAPSHOT.898",
+    "id": "mod-orders-12.9.0-SNAPSHOT.900",
     "action": "enable"
   },
   {
@@ -264,7 +264,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-data-export-worker-3.3.0-SNAPSHOT.489",
+    "id": "mod-data-export-worker-3.3.0-SNAPSHOT.490",
     "action": "enable"
   },
   {
@@ -280,11 +280,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-bulk-operations-2.1.0-SNAPSHOT.224",
+    "id": "mod-bulk-operations-2.1.0-SNAPSHOT.230",
     "action": "enable"
   },
   {
     "id": "mod-gobi-2.9.0-SNAPSHOT.236",
+    "action": "enable"
+  },
+  {
+    "id": "mod-lists-2.1.0-SNAPSHOT.92",
     "action": "enable"
   },
   {
