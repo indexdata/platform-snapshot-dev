@@ -288,10 +288,6 @@
     "action": "enable"
   },
   {
-    "id": "mod-lists-2.1.0-SNAPSHOT.92",
-    "action": "enable"
-  },
-  {
     "id": "mod-invoice-5.9.0-SNAPSHOT.440",
     "action": "enable"
   },
