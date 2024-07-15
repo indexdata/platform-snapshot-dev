@@ -9,8 +9,9 @@ module.exports = {
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     showPerms: false,
-    preserveConsole: true,
-    useSecureTokens: true,
+    welcomeMessage: 'Welcome to Snapshot Dev environment (Poppy). The Future of Libraries is OPEN!',
+    aboutInstallDate: '2024-07-15T05:00-05:00',
+    aboutInstallVersion: 'Poppy CSP 5'
   },
 
   modules: {
@@ -33,7 +34,6 @@ module.exports = {
     '@folio/export-manager': {},
     '@folio/handler-stripes-registry': {},
     "@folio/gobi-settings": {},
-    '@folio/inn-reach' : {},
     '@folio/inventory' : {},
     '@folio/invoice' : {},
     '@folio/finance' : {},
