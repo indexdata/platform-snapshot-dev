@@ -72,7 +72,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-27.2.0-SNAPSHOT.990",
+    "id": "mod-inventory-storage-27.2.0-SNAPSHOT.1005",
     "action": "enable"
   },
   {
@@ -136,7 +136,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-17.3.0-SNAPSHOT.409",
+    "id": "mod-circulation-storage-17.3.0-SNAPSHOT.414",
     "action": "enable"
   },
   {
@@ -188,7 +188,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-20.3.0-SNAPSHOT.758",
+    "id": "mod-inventory-20.3.0-SNAPSHOT.773",
     "action": "enable"
   },
   {
@@ -236,7 +236,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-24.3.0-SNAPSHOT.1246",
+    "id": "mod-circulation-24.3.0-SNAPSHOT.1250",
     "action": "enable"
   },
   {
