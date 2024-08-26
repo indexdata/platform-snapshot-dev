@@ -37,6 +37,9 @@ jobs:
       #  run: yarn lint
       #  continue-on-error: true
 
+      - name: Run yarn install
+        run: yarn install
+
       - name: Build Stripes bundle
         run: yarn build
 
