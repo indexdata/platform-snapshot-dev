@@ -122,7 +122,7 @@
   "id" : "mod-data-import-3.2.0-SNAPSHOT.297",
   "action" : "enable"
 }, {
-  "id" : "okapi-5.1.2",
+  "id" : "okapi-5.3.0",
   "action" : "enable"
 },{
   "id" : "mod-event-config-2.7.2-SNAPSHOT.67",
