@@ -3,13 +3,13 @@
 // const { merge } = require('lodash');
 
 module.exports = {
-  okapi: { 'url':'https://snapshot-dev-okapi.folio-dev.indexdata.com', 'tenant':'linkoping' },
+  okapi: { 'url':'https://snapshot-dev-okapi.folio-dev.indexdata.com', 'tenant':'harvester' },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
     maxUnpagedResourceCount: 2000,
     showPerms: false,
-    welcomeMessage: 'Welcome to Snapshot Dev environment. The Future of Libraries is OPEN!',
+    welcomeMessage: 'Welcome to the Harvester Snapshot Dev environment. The Future of Libraries is OPEN!',
     aboutInstallDate: '2024-07-15T05:00-05:00',
   },
 

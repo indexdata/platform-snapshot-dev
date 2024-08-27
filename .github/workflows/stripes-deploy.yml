@@ -1,44 +1,44 @@
-# This workflow will build the stripes bundle and deploy to S3. 
+# This workflow will build the stripes bundle and deploy to S3.
 
 name: bundle-deploy
-on: 
+on:
   workflow_dispatch:
 
-jobs: 
+jobs:
   bundle-deploy:
     env:
       FOLIO_NPM_REGISTRY: 'https://repository.folio.org/repository/npm-folioci'
       NODEJS_VERSION: '18'
-      #STRIPES_TRANSPILE_TOKENS: '@indexdata'
-      
+      STRIPES_TRANSPILE_TOKENS: '@indexdata'
+
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-    
+
       - name:  Setup kernel for react native, increase watchers
         run: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
       - name: Use Node.js
-        uses: actions/setup-node@v3
-        with: 
+        uses: actions/setup-node@v4
+        with:
           node-version: ${{ env.NODEJS_VERSION }}
           check-latest: true
           always-auth: true
- 
+
       - name: Set yarn config for FOLIO modules
         run: yarn config set @folio:registry $FOLIO_NPM_REGISTRY
 
-      - name: List FOLIO modules 
-        run: yarn list --pattern @folio
-      
-      #- name: Run yarn lint
-      #  run: yarn lint
-      #  continue-on-error: true
+      - name: Add @indexdata/harvester-admin
+        run: yarn add https://github.com/indexdata/ui-harvester-admin#main
 
-      - name: Run yarn install
-        run: yarn install
+      - name: Run yarn lint
+        run: yarn lint
+        continue-on-error: true
+
+      - name: List FOLIO modules
+        run: yarn list --pattern @folio
 
       - name: Build Stripes bundle
         run: yarn build
