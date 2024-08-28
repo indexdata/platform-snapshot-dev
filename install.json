@@ -232,4 +232,7 @@
 }, {
   "id" : "folio_bulk-edit-4.1.1000002735",
   "action" : "enable"
-} ]
+}, {
+  "id" : "mod-inventory-update-3.4.0-SNAPSHOT.125",
+  "action" : "enable"
+}]

@@ -148,4 +148,7 @@
 }, {
   "id" : "mod-bulk-operations-2.1.0-SNAPSHOT.230",
   "action" : "enable"
-} ]
+}, {
+  "id" : "mod-inventory-update-3.4.0-SNAPSHOT.125",
+  "action" : "enable"
+}]
